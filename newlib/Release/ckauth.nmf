@@ -1,0 +1,14 @@
+{
+  "files": {},
+  "program": {
+    "x86-64": {
+      "url": "ckauth_x86_64.nexe"
+    },
+    "arm": {
+      "url": "ckauth_arm.nexe"
+    },
+    "x86-32": {
+      "url": "ckauth_x86_32.nexe"
+    }
+  }
+}

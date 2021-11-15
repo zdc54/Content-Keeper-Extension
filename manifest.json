@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "img/ckauth19x.png",
+      "default_popup": "popup.html"
+   },
+   "description": "ContentKeeper Authenticator",
+   "differential_fingerprint": "1.2fe927c08caeebbc1c6df04ca464b0b81ed5a7756472929c0fdb2ecec2375904",
+   "icons": {
+      "128": "img/ckauth19x.png",
+      "16": "img/ckauth19x.png",
+      "32": "img/ckauth19x.png",
+      "48": "img/ckauth19x.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlfzZXAooDJjurBQzZD/fm2zw9ob923err1RW0RoLlt61CTjfME8YEE9PT+SleeGmoSndVXLpXtZgRO5OnDPKF3RTO5KYUBeGAI/E/0Ohz44VVfQcAwgkpvAZOrmf15Om2Y88HPmUXmAm2y5ZtyrBC2ZKSUDj8CM/t05GQIaQuR537OO1AgHhAeCP816W4emwHL3Yz+KLvk7qXjwYokiVB4yql6R4aKtmx0zHSr/gaYCY3v0mMVEAQY4hkpmCZjQn6vW1k52aCylE7+76DHT8qsV1mX7FMl0rzlKo3ox363aaq5xmCk6NHW37G/7F+Kk/PkYAKCMp/gezdtYUxFq2rwIDAQAB",
+   "manifest_version": 2,
+   "name": "CKAuthenticator",
+   "offline_enabled": true,
+   "permissions": [ "webRequest", "identity", "identity.email", "https://*/*", "http://*/*", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.4",
+   "web_accessible_resources": [ "img/ckauth19x.png" ]
+}
